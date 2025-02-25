@@ -1,0 +1,59 @@
+Data for Bouguer gravity data are given for each station used
+to create the complete-Bouguer gravity grid. This file is 
+compressed ("zipped").
+
+Format shows data for 9 channels.
+Latitude and longitude are in geographic decimal degrees, 
+datum is NAD27, ellipsoid is Clarke 1866.
+
+Number of stations = 76,550.  Some stations lie outside
+  Texas and are used for additional control.
+
+Channel= 1
+ title = station ID 
+ 8-character id
+ id has historical meaning - the first 4 characters refer to
+  a particular survey, and the last 4 are the station id.
+  Some very old stations do not have a unique station id (i.e.,
+  there are numerous stations in a particular survey with the
+  same 8-character id).
+
+Channel=  2
+ title = Longitude, decimal degrees
+ min   = -107            , max  = -93.5           
+ range = 13.5            , mean = -99.82893       , std dev = 4.1963
+
+Channel=  3
+ title = Latitude, decimal degrees
+ min   = 25.88333        , max  = 36.5            
+ range = 10.61667        , mean = 32.36091        , std dev = 2.306794
+
+Channel=  4
+ title = "Station elevation, in meters"
+ min   = -10.9           , max  = 3671.3          
+ range = 3682.2          , mean = 659.1792        , std dev = 603.8744
+
+Channel=  5
+ title = "Observed gravity in milligals"
+ min   = -1477.81        , max  = -200.5          
+ range = 1277.31         , mean = -689.46         , std dev = 192.4707
+
+Channel=  6
+ title = "Inner terrain correction, zones 0-f, in milligals"
+ min   = 0               , max  = 20.84           
+ range = 20.84           , mean = 0.1022948       , std dev = 0.4359747
+
+Channel=  7
+ title = "Outer terrain correction, zones g-o, in milligals"
+ min   = -0.25           , max  = 34.36           
+ range = 34.61           , mean = 0.1986596       , std dev = 0.817556
+
+Channel=  8
+ title = "Free air gravity anomaly (1967 formula), in milligals"
+ min   = -94.10245       , max  = 184.9226        
+ range = 279.0251        , mean = -2.586142       , std dev = 25.10113
+
+Channel=  9
+ title = "Bouguer gravity anomaly (1967 formula), 2.67 g/cc, in milligals"
+ min   = -274.9568       , max  = 53.16725        
+ range = 328.1241        , mean = -76.72781       , std dev = 70.16762
