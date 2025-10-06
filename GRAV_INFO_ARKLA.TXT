@@ -1,0 +1,68 @@
+Associated data are given for each station used
+to create the complete-Bouguer and isostatic gravity grids.
+ This file is compressed ("zipped").
+
+Number of records  = 36,618
+
+Channel 1
+ title = "sta_id"
+ Integer value.  Because many of the original station ids were 
+ not unique, the gravity stations were renumbered. 
+
+Channel 2
+ title = "Longitude"
+ datum = NAD27, ellipsoid = Clarke 1866
+ in degrees.minutes.decimal minutes 
+
+Channel 3
+ title = "Latitude"
+ datum = NAD27, Ellipsoid = Clarke 1866
+ in degrees.minutes.decimal minutes
+
+Channel 4
+ title = "X"
+ projected x values, in meters.
+ Lambert Conformal Conic, NAD27
+ central meridian = -92° base latitude = 0°
+ standard parallels = 33° and 45°
+
+Channel 5
+ title = "Y"
+ projected x values, in meters.
+ Lambert Conformal Conic, NAD27
+ central meridian = -92° base latitude = 0°
+ standard parallels = 33° and 45°
+
+Channel 6
+ title = "Station elevation"
+ in feet 
+
+Channel 7
+ title = "Observed gravity"
+ in milliGals
+ 
+Channel 8
+ title = "Inner terrain correction, zones 0-F"
+ in milliGals
+
+Channel 9
+ title = "Outer terrain correction, zones G-O"
+ in milliGals
+
+Channel 10
+ title = "Free air gravity anomaly (1967)"
+ in milliGals
+
+Channel 11
+ title = "Complete Bouguer gravity anomaly (1967) at 2.67 g/cc"
+ in milliGals
+
+Channel 12
+ title = "Isostatic correction - value of isostatic root"
+ root depth = 20 km, density contrast = 0.3 g/cm3
+ in milliGals
+ 
+Channel 13
+ title = "Isostatic gravity anomaly"
+ Bouguer gravity minus Isostatic Correction
+ in milliGals
